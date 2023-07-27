@@ -51,45 +51,277 @@
        </nav>
     </header>
     <main class="md:container md:mx-auto">
-        <div class="carousel w-full">
-            <div id="slide1" class="carousel-item relative w-full">
-                <div class="hero" style="background-image: url(images/banner1.png);">
-                    <div class="hero-overlay bg-opacity-60"></div>
-                    <div class="hero-content text-center text-neutral-content">
-                      <div class="max-w-md">
-                        <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button class="btn btn-primary">Get Started</button>
+        <section>
+            <div class="carousel w-full" style="height:500px">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <div class="hero" style="background-image: url(images/banner1.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                          <div class="max-w-md">
+                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                            <p class="mb-5">We supply highly quality organic products</p>
+                            <button class="btn btn-error text-white">Shop Now</button>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="hero " style="background-image: url(images/banner2.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                          <div class="max-w-md">
+                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                            <p class="mb-5">We supply highly quality organic products</p>
+                            <button class="btn btn-error text-white">Shop Now</button>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                    <div class="hero " style="background-image: url(images/banner3.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                          <div class="max-w-md">
+                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                            <p class="mb-5">We supply highly quality organic products</p>
+                            <button class="btn btn-error text-white">Shop Now</button>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                    <div class="hero" style="background-image: url(images/banner4.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                          <div class="max-w-md">
+                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                            <p class="mb-5">We supply highly quality organic products</p>
+                            <button class="btn btn-error text-white">Shop Now</button>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>  
+        </section>
+        <section class="hidden sm:block lg:visible">
+            <div class="grid grid-cols-5 w-[60%] relative bottom-11 bg-white rounded-md drop-shadow-xl" style="margin: 0 auto;">
+                <div class="justify-center text-center">
+                    <img src="images/fruit1.png" alt="">
+                    <caption>grape</caption>
+                </div>
+                <div class="justify-center text-center">
+                    <img src="images/fruit2.png" alt="">
+                    <caption>Orange</caption>
+                </div>
+                <div class="justify-center text-center">
+                    <img src="images/fruit3.png" alt="">
+                    <caption>Mango</caption>
+                </div>
+                <div class="justify-center text-center">
+                    <img src="images/fruit4.png" alt="">
+                    <caption>Strawberry</caption>
+                </div>
+                <div class="justify-center text-center">
+                    <img src="images/fruit5.png" alt="">
+                    <caption>pomegranate</caption>
+                </div>
+            </div>
+        </section>
+        <section class="mb-16">
+         <div class="flex-none lg:flex justify-between mb-8">
+            <div class="text-center lg:text-left">
+             <h1 class="text-5xl font-bold">Deal of the day</h1>
+             <p class="text-sm">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <div class="pt-8">
+                <div class="grid grid-flow-col gap-5 text-center auto-cols-max justify-center">
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl font-bold">
+                        <span style="--value:15;"></span>:
+                      </span>
+                      Days
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl font-bold">
+                        <span style="--value:10;"></span>:
+                      </span>
+                      Hours
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl font-bold">
+                        <span style="--value:24;"></span>:
+                      </span>
+                      Minutes
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl font-bold">
+                        <span style="--value:35;"></span>
+                      </span>
+                      Seconds
+                    </div>
+                  </div>
+            </div>
+         </div>
+        </section>
+        <section>
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
+                <div class="card bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <p>Apple</p>
+                      <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" />
+                      </div>
+                      <div class="card-actions">
+                        <button class="btn btn-ghost text-error">Details</button>
                       </div>
                     </div>
                   </div>
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide4" class="btn btn-circle">❮</a> 
-                <a href="#slide2" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
-            <div id="slide2" class="carousel-item relative w-full">
-              <img src="images/banner2.png" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide1" class="btn btn-circle">❮</a> 
-                <a href="#slide3" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
-            <div id="slide3" class="carousel-item relative w-full">
-              <img src="images/banner3.png" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide2" class="btn btn-circle">❮</a> 
-                <a href="#slide4" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
-            <div id="slide4" class="carousel-item relative w-full">
-              <img src="images/banner4.png" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide3" class="btn btn-circle">❮</a> 
-                <a href="#slide1" class="btn btn-circle">❯</a>
-              </div>
+                  <div class="card bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <p>Apple</p>
+                      <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" />
+                      </div>
+                      <div class="card-actions">
+                        <button class="btn btn-ghost text-error">Details</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <p>Apple</p>
+                      <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" />
+                      </div>
+                      <div class="card-actions">
+                        <button class="btn btn-ghost text-error">Details</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <p>Apple</p>
+                      <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-400" />
+                      </div>
+                      <div class="card-actions">
+                        <button class="btn btn-ghost text-error">Details</button>
+                      </div>
+                    </div>
+                  </div>
             </div>
-          </div>  
+            <div class="h-64 flex items-center justify-center">
+                <button class="btn btn-error text-white">Shop All</button>
+              </div>
+              
+        </section>
+        <!-- <section style="background-image: url(images/banner3.png) width:700px;">
+            <div style="border:1px solid black; height:500px ;">
+                <div style="border: 1px solid black; height: 200px;">
+                    <h1 class="text-6xl font-bold text-center pt-11">Meet the team section</h1>
+                <p class="text-center pt-10">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+
+                <div class="grid grid-cols-4">
+                    <div class="card  bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-1.5">
+                          <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Shoes!</h2>
+                          <p>If a dog chews shoes whose shoes does he choose?</p>
+                          <div class="card-actions">
+                            <button class="btn btn-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                          <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Shoes!</h2>
+                          <p>If a dog chews shoes whose shoes does he choose?</p>
+                          <div class="card-actions">
+                            <button class="btn btn-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                          <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Shoes!</h2>
+                          <p>If a dog chews shoes whose shoes does he choose?</p>
+                          <div class="card-actions">
+                            <button class="btn btn-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                          <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Shoes!</h2>
+                          <p>If a dog chews shoes whose shoes does he choose?</p>
+                          <div class="card-actions">
+                            <button class="btn btn-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                    
+            </div>
+        </section> -->
+        <section>
+            
+        </section>
     
     </main>
     <footer></footer>
